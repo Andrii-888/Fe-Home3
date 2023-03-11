@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  background-color: lightblue;
+  border: 1px solid blue;
+  width: 700px;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+a:hover {
+  background-color: white;
+}

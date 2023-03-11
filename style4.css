@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  background-color: rgb(99, 218, 218);
+  border: 1px solid black;
+  width: 700px;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+li {
+  list-style-type: none;
+}
+a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+a:hover {
+  background-color: chartreuse;
+  width: 700px;
+}
